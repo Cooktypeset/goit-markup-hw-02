@@ -1,3 +1,9 @@
+:root {
+  -color: ;
+  -background-color: ;
+  -font-family: ;
+}
+
 .list {
   list-style: none;
 }
@@ -11,7 +17,10 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.current {
+  accent-color: #e7e9fc;
 }
