@@ -1,18 +1,26 @@
-:root {
-  -color: ;
-  -background-color: ;
-  -font-family: ;
-}
-
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
+/*LOGO*/
 .logo-span {
   color: #4d5ae5;
 }
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+/*NAVIGATION*/
 .menu-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -21,6 +29,79 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.current {
-  accent-color: #e7e9fc;
+.menu-link:active {
+  color: #404bbf;
+}
+/*ADDRESS*/
+.mail {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.phone-number {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.mail:active {
+  color: #404bbf;
+}
+/*MAIN SECTION1*/
+.hero-background {
+  position: absolute;
+  width: 1440px;
+  background: #2e2f42;
+}
+.hero {
+  font-family: 'Roboto', sans-serif;
+  /*font-style: normal;*/
+  /*font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0.02em;*/
+  color: #ffff;
+}
+.modal-btn :hover,
+.modal-btn :focus {
+  cursor: pointer;
+  background: #404bbf;
+}
+.modal-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+/*SECTION2*/
+.header {
+  display: none;
+}
+.list-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.list-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
